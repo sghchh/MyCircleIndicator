@@ -93,4 +93,7 @@ canvas.drawText(i+"",cx-(indicatorRadius+indicatorBorderWidth)*0.5f,cy*1.3f,curr
 其中，cx为该圆圈的圆心横坐标，cy为纵坐标；(indicatorRadius+indicatorBorderWidth)为圆环的内侧半径加上外环的宽。
 ```  
 
-这么一改，文本基本被绘制到了圆心的中心。  
+这么一改，文本基本被绘制到了圆心的中心。    
+#### 1.2.2 一些细节  
+安卓中有很多尺寸计量单位：  
+1. Paint.setTextSize(),Paint.setStrokeWidth()等设置的都是像素px。
